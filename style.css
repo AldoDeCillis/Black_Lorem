@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Nova+Square&family=Orbitron:wght@400;500;600;700&display=swap');
+
+/* Font Rules:
+font-family: 'Jura', sans-serif;
+font-family: 'Nova Square', cursive;
+font-family: 'Orbitron', sans-serif; */
+.main_color{
+    color: aliceblue;
+}
+.sec_color{
+    color: #2B9DF4;
+}
+.bg_color{
+    background-color: black;
+}
+.main_txt{
+    font-family: 'Orbitron', sans-serif;
+}
+.sec_text{
+    font-family: 'Jura', sans-serif;
+}
+body{
+    background-color: black;
+}
+.nav-link:hover{
+    color: aliceblue;
+}
+.nav_border{
+    border-bottom: 1px solid aliceblue;
+}
+#navbar {
+    transition: 1s;
+}
+#navbar.navbar_bg{
+    background-color: aliceblue;
+}
+#navbar.navbar_bg .nav-link{
+    color: black!important;
+}
+.main_img_container{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.27503501400560226) 0%, rgba(0,0,0,1) 41%),url(./media/moon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fw_title{
+    font-weight: 500;
+}
+.header_arrow_positioning{
+    bottom: 0;
+}
+.arrow_animation{
+    animation: updown linear 5s infinite;
+}
+@keyframes updown{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+.linea{
+    height: 2px;
+    width: 80%;
+    background-color: #2B9DF4;
+}
+.moon_img_container{
+    background:url(./media/moon2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50vmax;
+}
+.border_color{
+    border-bottom: 2px solid #2B9DF4;
+}
+.btn_cta_custom{
+    color: aliceblue;
+}
+.square_border1{
+    height: 12px;
+    width: 12px;
+    border-top: 3px solid #2B9DF4;
+    border-left: 3px solid #2B9DF4;
+    left: 0;
+    top: 0;
+}
+.square_border2{
+    height: 12px;
+    width: 12px;
+    border-bottom: 3px solid #2B9DF4;
+    border-left: 3px solid #2B9DF4;
+    left: 0;
+    bottom: 0;
+}
+.square_border3{
+    height: 12px;
+    width: 12px;
+    border-top: 3px solid #2B9DF4;
+    border-right: 3px solid #2B9DF4;
+    right: 0;
+    top: 0;
+}
+.square_border4{
+    height: 12px;
+    width: 12px;
+    border-bottom: 3px solid #2B9DF4;
+    border-right: 3px solid #2B9DF4;
+    right: 0;
+    bottom: 0;
+}
+.earth_img_container{
+    background: radial-gradient(circle, rgba(0,0,0,0.27503501400560226) 0%, rgba(0,0,0,0.695203081232493) 56%), url(./media/sunrise-1765027_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.linea_gradient{
+    height: 6px;
+    width: 80%;
+    background: radial-gradient(circle, rgba(0,0,0,0.27503501400560226) 0%, rgba(0,0,0,0.768032212885154) 49%),#2B9DF4;
+}
